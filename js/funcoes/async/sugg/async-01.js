@@ -4,9 +4,8 @@ const aguardar = (tempo = 2000) => {
     })
 }
 
-
 console.log('Antes da promise');
 
-aguardar(2000).then(() => console.log('Executando promise 1...'))
+aguardar(3000).then(() => console.log('Executando promise 1...'))
 aguardar(2000).then(() => console.log('Executando promise 2...'))
-aguardar(2000).then(() => console.log('Executando promise 3...'))
+aguardar(1000).then(() => console.log('Executando promise 3...'))

@@ -27,9 +27,9 @@ const funcaoCallBack = () => {
   console.log('Salvou o usuário');
 }
 
-test1();
-console.log(1+1);
+// test1();
+// console.log(1+1);
 test2(funcaoCallBack);
-test3();
-console.log(2+2);
-test4();
+// test3();
+// console.log(2+2);
+// test4();
