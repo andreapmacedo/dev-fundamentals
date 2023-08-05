@@ -1,3 +1,5 @@
+// ref: https://www.udemy.com/course/desvendando-a-web-html-css-javascript-e-typescript/learn/lecture/37537318#overview
+
 const list = [
   { name: 'andre',
     age: 30,
