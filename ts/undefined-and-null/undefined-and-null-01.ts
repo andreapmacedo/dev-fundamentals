@@ -27,11 +27,13 @@ const funcaoTest = (): undefined | number => {
 
 const outroNome = funcaoTest();
 
+// se ele for nulo, ele vai ser nulo
 if (!andar.passos) {
   console.log("é nulo");
 }
 
-if (outroNome) {
+// se ele não for nulo, ele vai ser um number
+if (outroNome) { 
   outroNome.toFixed();
 }
 
