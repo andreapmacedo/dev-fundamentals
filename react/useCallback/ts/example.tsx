@@ -20,11 +20,11 @@ const Example = () => {
   };
 
   return (
-    <View>
-      <Button onClick={handleChangeName}>Name</Button>
-      <Button onClick={handleChangeLastName}>LastName</Button>
+    <div>
+      <button onClick={handleChangeName}>Name</button>
+      <button onClick={handleChangeLastName}>LastName</button>
 
-    </View>
+    </div>
   );
 }
 
