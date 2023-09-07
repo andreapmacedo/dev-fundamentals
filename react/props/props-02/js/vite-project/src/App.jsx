@@ -16,7 +16,7 @@ function App() {
       {/* <Component04 text="componente04 text" sub="componente04 sub"/> */}
       
       {/* <Component05>componente05 children</Component05> */}
-      <Component06 text="componente06 prop text" sub="componente06 prop sub">componente06 children</Component06>
+      <Component06 text="prop text" sub="prop sub">children</Component06>
 
     </>
   )

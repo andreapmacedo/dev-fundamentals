@@ -1,4 +1,14 @@
-export function Component06 ({text, sub}, {children}) {
+// export function Component06 ({text, sub, children}) {
+//   return (
+//     <div>
+//       <h1>{children}</h1>
+//       <h1>{text}</h1>
+//       <h1>{sub}</h1>
+//     </div>
+//   )
+// }
+export function Component06 (props) {
+  const { children, text, sub } = props;
   return (
     <>
       <h1>{children}</h1>
@@ -7,11 +17,3 @@ export function Component06 ({text, sub}, {children}) {
     </>
   )
 }
-// export function Component06 (props, {children}) {
-//   return (
-//     <>
-//       <h1>{children}</h1>
-//       <h1>{props.text}</h1>
-//     </>
-//   )
-// }
