@@ -1,0 +1,15 @@
+
+/* antialiased para melhorar o serrilhado da fonte */
+body {
+  -webkit-font-smoothing: antialiased; 
+}
+
+/* padroniza a fonte */
+body, input, textarea, button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* o rem(fonte-size relativo) équivale ao padrão no html de 16px */
+/* caso o usuário configure em seu SO um padrão maior ou menor de fonte o site aplicará a responsividade */
